@@ -8,28 +8,31 @@
 
 # 安装
 
-`git clone https://github.com/AsyncioCN/WRC.git`
-带有“-server”标识的文件和config.dict文件是服务端
+`git clone https://github.com/AsyncioCN/WRC.git`\
+带有“-server”标识的文件和config.dict文件是服务端\
 带有“-client”标识的文件是客户端程序
 
 # 如何使用
 
 #### 服务端WRC
-在服务端运行wrc-server.exe即可
+在服务端运行wrc-server.exe即可\
 config.dict中的"sendback_port"应保留7200
 
 #### 客户端WRC
-在客户端运行wrc-client.exe连接服务端即可
+在客户端运行wrc-client.exe连接服务端即可\
 连接的端口应为服务端config.dict中的"listen_address"
 
 
 
-# License
+# 开源协议
 本软件使用[GNU General Public License version 3 (GPL-3.0)](https://opensource.org/licenses/GPL-3.0)开源协议
 <details>
 <summary>GNU General Public License version 3 (GPL-3.0)</summary>
-Preamble
-引言
+  
+### Preamble
+  
+## 引言
+  
 The GNU General Public License is a free, copyleft license for software and other kinds of works. GNU通用公共许可协议（为方便阅读，以下简称“GPL协议”）是一种适用于软件和其他各类作品的自由且不可加以限制的（copyleft）版权许可协议。
 
 The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users. We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors. You can apply it to your programs, too.
@@ -66,8 +69,8 @@ Finally, every program is threatened constantly by software patents. States shou
 
 The precise terms and conditions for copying, distribution and modification follow. 以下是关于复制、分发以及修改的详细条款和条件。
 
-TERMS AND CONDITIONS
-条款和条件
+### TERMS AND CONDITIONS
+## 条款和条件
 0. Definitions.
 0. 定义
 “This License” refers to version 3 of the GNU General Public License.
