@@ -15,7 +15,7 @@
 # 如何使用
 
 #### 服务端WRC
-在服务端运行wrc-server.exe即可\
+在服务端运行wrc-server.exe即可
 
 #### 客户端WRC
 在客户端运行wrc-client.exe连接服务端即可\
