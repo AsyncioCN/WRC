@@ -16,11 +16,10 @@
 
 #### 服务端WRC
 在服务端运行wrc-server.exe即可\
-config.dict中的"sendback_port"应保留7200
 
 #### 客户端WRC
 在客户端运行wrc-client.exe连接服务端即可\
-连接的端口应为服务端config.dict中的"listen_address"
+连接的端口应为服务端配置中的"listen_address"
 
 
 
