@@ -5,7 +5,7 @@ import sys
 import asyncio
 import time
 config = {}
-with open("config.dict","r") as config_handle:
+with open("wrc-server-config.dict","r") as config_handle:
     config = eval(config_handle.read().strip("\n"))
 print("[INFO] config =",config)
 commander_ip = ""
@@ -49,5 +49,8 @@ while True:
     print("[Client] Listener Closed")
     client.close()
     sender.close()
-    print("[Client] Listener Relaunch in 5s...")
-    time.sleep(5)
+    if config["relaunch"]:
+        print("[Client] Listener Relaunch in "+str(config["relaunch_timeout"])+"s...")
+        time.sleep(config["relaunch_timeout"])
+    else:
+        break

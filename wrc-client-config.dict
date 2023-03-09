@@ -1,0 +1,7 @@
+{
+	"listen_address":"0.0.0.0",
+	"listen_port":7200,
+	"listen_timeout":10,
+	"default_send":False,
+	"write_config":True,
+}

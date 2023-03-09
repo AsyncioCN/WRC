@@ -1,0 +1,7 @@
+{
+	"listen_address":"0.0.0.0",
+	"listen_port":7201,
+	"sendback_port":7200,
+	"relaunch":True,
+	"relaunch_timeout":3
+}
