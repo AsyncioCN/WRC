@@ -26,6 +26,8 @@ async def run(cmd):
         print("[SubProccess] [INFO] Sending Result ->"+commander_ip)
         try:
             sender.send(cmd_result.encode("utf-8"))
+            time.sleep(0.2)
+            sender.send("@EXECUTED".encode("utf-8"))
         except Exception as e:
             print("[SubProccess] [ERROR] Exception In SubProccess\n"+str(e))
 while True:
